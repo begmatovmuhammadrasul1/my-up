@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1440px;
+    background-color: #1C1C28;
+    margin: 30px auto;
+
+    
+}
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    height: 120px;
+
+}
+
+
+.logo{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.menu{
+    padding-top: 50px;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    
+}
+.menu ul li a{
+    margin-left: 40px;
+    padding-left: 20px;
+    text-decoration: none;
+}
+button{
+    border-radius: 15px;
+    background-color: #6966FF;
+    color: wheat;
+    margin-top: 35px;
+    width: 147px;
+    height: 48px;
+}
+.main{
+    
+    width: 1440px;
+
+flex-shrink: 0;
+margin-top: 200px;
+}
+.img_cards{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    border-radius: 10px;
+border: 1px solid rgba(0, 0, 0, 0.10);
+
+
+   
+}
+.taxts{
+ 
+}
+.color{
+    color: #fffcfc;
+text-align: center;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 28.8px */
+
+flex-shrink: 0;
+
+}
+.rang{
+    color: #f9dcdc;
+    text-align: center;
+    font-family: Gelasio;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 36px */
+    
+}
+.card_info{
+    margin-top: 140px;
+    text-align: center;
+}
+.yoq{
+    color: #ffffff;
+font-family: Gelasio;
+font-size: 43px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 60.2px */
+}
+.classi{
+    color: #ffffff;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 28.8px */
+}
+.taxt_info{
+    
+}
+.cardd{
+    display: flex;
+    gap: 73px;
+    justify-content: center;
+}
+.t{
+    color: white;
+}
+.u{
+color: white;
+
+}
+.s{
+    color: white;
+}
+.span{
+    color: white;
+}
+.info{
+    margin-top: 48px;
+}
+.footer{
+    margin-top: 134px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.h4{
+    color: #fefefe;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px; /* 125% */
+letter-spacing: -0.32px;
+}
+.textl{
+    text-align: center;
+}
+.cvb{
+    
+    color: #ffffff;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 56px; /* 140% */
+letter-spacing: -0.8px;
+}
